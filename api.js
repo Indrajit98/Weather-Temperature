@@ -14,7 +14,7 @@ const button = document.getElementById('button').addEventListener('click', funct
             temperature.innerHTML = Math.round(temp-273.15).toFixed(2);
             weatherStatus.innerHTML = weather;   
         })
-        .catch(err => alert('worn city name'));
+        .catch(err => alert('Wrong city name'));
     }
     weatherTemperature()
 })
